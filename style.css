@@ -4,7 +4,6 @@
 }
 header{
     margin-top: 30px;
-    background: url(./assets/hero-bg.png);
 }
 
 
@@ -31,8 +30,6 @@ nav .nav-logo img{
     gap: 32px;
     font-size: 16px;
     text-align: center;
-    
-
 
 }
 .nav-menu li a{
@@ -55,7 +52,6 @@ nav .nav-logo img{
     background-color: rgb(75, 46, 46);
     color: rgb(122, 73, 174);
     font-size: 18px;
-
 }
 #hero{
     height: 600px;
