@@ -1,11 +1,11 @@
-*{
+/* *{
     margin: 0;
     padding-top: 0;
 }
 header{
     margin-top: 30px;
     /* background: url(./assets/hero-bg.png); */
-}
+
 
 
 .inter-fonts{
@@ -59,7 +59,7 @@ nav .nav-logo img{
 }
 #hero{
     height: 600px;
-    background: url(./assets/hero-bg.png);
+    background: url("./assets/hero-bg.png");
 }
 .hero-container{
     width: 585px;
@@ -192,9 +192,7 @@ nav .nav-logo img{
     padding: 12px;
     gap: 60px;
 }
-#brain .Brain-container img{
-    
-}
+
 #brain .brain-describe{
     padding: 120px 0;
 }
