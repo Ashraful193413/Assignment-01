@@ -133,7 +133,7 @@ nav .nav-logo img{
     color: rgb(122, 73, 174);
 }
 #card-section{
-    padding-top: 100px;
+    margin-top: 50px;
 }
 #card-section .card-container{
     width: 1360px;
@@ -141,7 +141,7 @@ nav .nav-logo img{
 }
 .card-container .card-heading{
     text-align: center;
-    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .card-container .card-heading h1{
     font-size: 48px;
@@ -159,9 +159,8 @@ nav .nav-logo img{
 }
 .card-box .card{
     width: 322px;
-    height: 322px;
+    height: 250px;
     padding: 24px;
-    /* box-shadow: 0 1px 3px 0 #b3a7a7; */
     box-shadow: 0 -4px 2px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     display: flex;
@@ -230,16 +229,16 @@ nav .nav-logo img{
     font-size: 16px;
     font-weight: 900;
     margin: 0;
-    padding-left: 13px;
-    font-style: Medium;
+    padding: 0;
 } 
 #brain .brain-describe li{
-    list-style: circle;
+    list-style: none;
     line-height: 30px;
+    
 } 
 #challange-section{
-width: 1360px;
-margin: 0 auto;
+    width: 1360px;
+    margin: 0 auto;
 }
 #challange-section .challange-container{
     margin-top: 50px;
@@ -264,6 +263,23 @@ margin: 0 auto;
     color: #a19f9f;
     text-align: center;
     padding: 15px 0;
+}
+#challange-section .challange-container .btn-3 button{
+    width: 250px;
+    height: 44px;
+    padding: 12px 16px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 04px;
+    cursor: pointer; 
+    margin: 10px;
+}
+#challange-section .challange-container .btn-3 button:hover{
+    background-color: rgb(75, 46, 46);
+    color: rgb(122, 73, 174);
 }
 footer{
     background: var(--Style, rgba(0, 25, 49, 1));
